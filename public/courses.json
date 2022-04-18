@@ -3,28 +3,28 @@
         "id": "1",
         "name": "C++ Programming Language",
         "price": 1500,
-        "description": "In this course, You will learn about variables, arrays, functions, structure, pointer, union, file, objects.",
+        "description": "In this course, You will learn about variables, arrays, functions, recursion, structure, pointer, union, file, objects of C++ language.",
         "img": "https://i.ibb.co/vs4HMZk/c.png"
     },
     {
         "id": "2",
         "name": "JavaScript",
         "price": 1800,
-        "description": "In this course, You will learn about variables, arrays, functions, structure, pointer, union, file, objects.",
+        "description": "In this course, You will learn about variables, arrays, class, object, destructuring, normal function, arrow function and es6 features of javaScript.",
         "img": "https://i.ibb.co/B2pZ3by/javascript.jpg"
     },
     {
         "id": "3",
         "name": "Python",
         "price": 2000,
-        "description": "In this course, You will learn about variables, arrays, functions, structure, pointer, union, file, objects.",
+        "description": "In this course, You will learn about variables, classes and objects, constructor, inheritance, polymorphism, encapsulation, decorator and closure of python language.",
         "img": "https://i.ibb.co/Rb4FH3P/python.png"
     },
     {
         "id": "4",
         "name": "Maths",
         "price": 3000,
-        "description": "In this course, You will learn about variables, arrays, functions, structure, pointer, union, file, objects.",
+        "description": "In this course, You will learn about linear algebra, calculus and analysis, geometry and topology, logic, numeric theory and combinatorics.",
         "img": "https://i.ibb.co/M8g3bW1/maths.jpg"
     }
 ]

@@ -1,70 +1,24 @@
-# Getting Started with Create React App
+# Independent Service Provide Website - Excel Tuition
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## [https://excel-tuition.web.app/p](https://excel-tuition.web.app/)
 
-## Available Scripts
+#### What I have done in the projects: 
+* Routes of the project: home, about, blogs, login, register, checkout(dynamic and restricted).
 
-In the project directory, you can run:
+* On the home page, there are four section. Navigation bar, banner(it contains a carousel and some introductory words), services(i am providing online courses as service), footer(containing dynamic year).
 
-### `npm start`
+* Each course is containing their name, image, price, description, and a checkout button for the specific project. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* By clicking the checkout button, you can visit the checkout page where your basic information (name, phone and address) are taken for booking. This page is protected, you can't access this page without logging in.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* On the Login page, you have three options for login. 1.You may enter you email and password and get access to your previously registered use account. Email and password are required field. 2. You can login to the system using you google account. 3. You can login to the system using you github account.
 
-### `npm test`
+* If you are not a registered member of the website, you need to register yourself first. You can see a Register link below the login form. You can visit the register form by clicking the register link. Enter your email and password to register yourself. Or, you can login directly using you existing google/github account.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* On the blogs page, you can see three frequently asked questions have been answered.
+* On the about page, you can get to know about me before taking your desired course. I am the tutor of the excel tuition. 
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+#### List of technologies: 
+* Languages: html, vanilla css, javascript
+* Libraries and frameworks: bootstrap, react, react-bootstrap, react-router, firebase, react-firebase-hooks

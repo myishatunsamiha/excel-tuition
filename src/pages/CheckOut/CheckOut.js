@@ -49,7 +49,7 @@ const CheckOut = () => {
                     }
                     <input ref={phoneRef} type="text" name="phone" id="phone" placeholder='enter phone number' required />
                     <input ref={addressRef} type="text" name="address" id="address" placeholder='enter address' required />
-                    <input type="submit" value="Check Out" className='btn-dark text-light' />
+                    <input type="submit" value="Booking" className='btn-dark text-light' />
                 </form>
                 {errorElement}
 
