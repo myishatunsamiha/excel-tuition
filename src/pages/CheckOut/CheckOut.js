@@ -40,7 +40,7 @@ const CheckOut = () => {
 
     return (
         <div>
-            <div className='m-5 text-center'>
+            <div className='m-5 text-center' style={{ marginBottom: '100px' }}>
                 <h2>Give Personal Information</h2>
                 <form onSubmit={handleUpdate}>
                     <input ref={nameRef} type="text" name="name" id="name" placeholder='enter name' required />

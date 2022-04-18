@@ -35,7 +35,8 @@ const Header = () => {
                         {
                             loading ? '' :
                                 user ? <button className='btn btn-link text-decoration-none' onClick={() => { signOut(auth) }}>Sign Out</button> :
-                                    <Nav.Link as={CustomLink} to="/login" className='fw-bold fs-5'>Login</Nav.Link>
+                                    <><Nav.Link as={CustomLink} to="/login" className='fw-bold fs-5'>Login</Nav.Link> <Nav.Link as={CustomLink} to="/register" className='fw-bold fs-5'>Register</Nav.Link> </>
+
                         }
                     </Nav>
                 </Navbar.Collapse>
