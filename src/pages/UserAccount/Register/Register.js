@@ -23,13 +23,13 @@ const Register = () => {
         console.log(user);
     }
 
-    const handleRegistration = async (event) => {
+    const handleRegistration = (event) => {
         event.preventDefault();
         const email = emailRef.current.value;
         const password = passwordRef.current.value;
         console.log(email, password);
 
-        await createUserWithEmailAndPassword(email, password);
+        createUserWithEmailAndPassword(email, password);
     }
 
     return (

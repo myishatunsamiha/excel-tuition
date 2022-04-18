@@ -6,7 +6,6 @@ import About from './pages/About/About';
 import Blogs from './pages/Blogs/Blogs';
 import Login from './pages/UserAccount/Login/Login';
 import Register from './pages/UserAccount/Register/Register';
-import Course from './pages/Home/Course/Course';
 import NotFound from './pages/NotFound/NotFound';
 import Footer from './pages/Shared/Footer/Footer';
 import CheckOut from './pages/Home/CheckOut/CheckOut';

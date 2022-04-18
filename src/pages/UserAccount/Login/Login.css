@@ -17,3 +17,10 @@ form input {
 form input:hover {
     border: 1px solid rgb(131, 129, 129);
 }
+
+@media only screen and (max-width: 767px) {
+    form {
+        width: 100%;
+        margin: 20px auto;
+    }
+}
