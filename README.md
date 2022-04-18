@@ -1,6 +1,6 @@
 # Independent Service Provide Website - Excel Tuition
 
-## [https://excel-tuition.web.app/p](https://excel-tuition.web.app/)
+## [https://excel-tuition.web.app/](https://excel-tuition.web.app/)
 
 #### What I have done in this project: 
 * Routes of the project: home, about, blogs, login, register, checkout(dynamic and restricted).
