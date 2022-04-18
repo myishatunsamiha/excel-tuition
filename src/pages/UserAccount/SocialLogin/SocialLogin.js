@@ -32,7 +32,6 @@ const SocialLogin = () => {
 
             <button className='btn d-block btn-dark text-light social-btn' onClick={() => signInWithGoogle()}><img src={google} width='25' alt='' /> Google LogIn</button>
             <button className='btn d-block bg-dark text-light social-btn' onClick={() => signInWithGithub()}><img src={github} width='25' alt='' /> Github LogIn</button>
-            {/* <button className='btn d-block bg-dark text-light social-btn'><img src={facebook} width='25' alt='' /> Facebook LogIn</button> */}
             {errorElement}
         </div>
     );

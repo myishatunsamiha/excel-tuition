@@ -56,8 +56,8 @@ const Login = () => {
         <div className='m-5 text-center'>
             <h2 className='text-center'>Login Form</h2>
             <form onSubmit={handleLogin}>
-                <input ref={emailRef} type="email" name="email" id="email" placeholder='enter email' />
-                <input ref={passwordRef} type="password" name="password" id="password" placeholder='enter password' />
+                <input ref={emailRef} type="email" name="email" id="email" placeholder='enter email' required />
+                <input ref={passwordRef} type="password" name="password" id="password" placeholder='enter password' required />
                 <input type="submit" value="Login" className='btn-dark text-light' />
             </form>
             {errorElement}
