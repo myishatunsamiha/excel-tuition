@@ -7,11 +7,11 @@
     {
         "id": "2",
         "ques": "Why are you using firebase? What other options do you have to implement authentication?",
-        "ans": "We are using firebase for authentication and hosting purposes. Firebase is allowing the developers to identify the users using email/password, phone number and other identity providers like github, google, facebook, etc. It provides easier, more secure and trustworthy authentication system than our own created manual login and register system. Other than firebase, we have Parse, Back4app, Heroku, Kuzzle, Deployd, Kinvey, Backendless, Pubnub, Kumulous, etc."
+        "ans": "We are using firebase for authentication and hosting purposes. Firebase is allowing the developers to identify the users using email/password, phone number and other identification providers' systems like github login, google login, facebook login, etc. It provides easier, more secure and trustworthy authentication system than our own created manual login and register system. Other than firebase, we have Parse, Back4app, Heroku, Kuzzle, Deployd, Kinvey, Backendless, Pubnub, Kumulous, etc as third party authentication providers."
     },
     {
         "id": "3",
         "ques": "What other services does firebase provide other than authentication?",
-        "ans": "Below are few other services of firebase: 1. Realtime database. 2.Remote configuration. 3. Cloud messaging. 4. Cloud functions. 5. Hosting. 6. Cloud Storage. 7. Firebase ml."
+        "ans": "Here are few popular services provided by firebase along with authentication: 1. Realtime database. 2.Remote configuration. 3. Cloud messaging. 4. Cloud functions. 5. Hosting. 6. Cloud Storage. 7. Firebase ml."
     }
 ]

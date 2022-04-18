@@ -2,7 +2,7 @@
 
 ## [https://excel-tuition.web.app/p](https://excel-tuition.web.app/)
 
-#### What I have done in the projects: 
+#### What I have done in this project: 
 * Routes of the project: home, about, blogs, login, register, checkout(dynamic and restricted).
 
 * On the home page, there are four section. Navigation bar, banner(it contains a carousel and some introductory words), services(i am providing online courses as service), footer(containing dynamic year).

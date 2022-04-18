@@ -7,3 +7,9 @@
     font-weight: bold;
     box-shadow: 5px 5px 10px gray;
 }
+
+@media only screen and (max-width: 767px) {
+    .social-btn {
+        width: 100%;
+    }
+}

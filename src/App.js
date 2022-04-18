@@ -6,7 +6,7 @@ import About from './pages/About/About';
 import Blogs from './pages/Blogs/Blogs';
 import Login from './pages/UserAccount/Login/Login';
 import Register from './pages/UserAccount/Register/Register';
-import NotFound from './pages/NotFound/NotFound';
+import NotFound from './pages/Shared/NotFound/NotFound';
 import Footer from './pages/Shared/Footer/Footer';
 import CheckOut from './pages/CheckOut/CheckOut';
 import RequireAuth from './pages/RequireAuth/RequireAuth';
