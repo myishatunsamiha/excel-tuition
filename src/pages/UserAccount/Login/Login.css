@@ -1,0 +1,19 @@
+form {
+    width: 40%;
+    margin: 20px auto;
+}
+
+form input {
+    display: block;
+    width: 100%;
+    margin: 12px;
+    height: 50px;
+    border: 1px solid rgb(201, 197, 197);
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+form input:hover {
+    border: 1px solid rgb(131, 129, 129);
+}

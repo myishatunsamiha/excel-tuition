@@ -1,0 +1,9 @@
+.social-btn {
+    width: 30%;
+    margin: 10px auto;
+}
+
+.social-btn:hover {
+    font-weight: bold;
+    box-shadow: 5px 5px 10px gray;
+}

@@ -9,6 +9,7 @@ import Register from './pages/UserAccount/Register/Register';
 import Course from './pages/Home/Course/Course';
 import NotFound from './pages/NotFound/NotFound';
 import Footer from './pages/Shared/Footer/Footer';
+import CheckOut from './pages/Home/CheckOut/CheckOut';
 
 
 
@@ -23,7 +24,9 @@ function App() {
         <Route path='/blogs' element={<Blogs></Blogs>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>
         <Route path='/register' element={<Register></Register>}></Route>
-        <Route path='/course/:courseId' element={<Course></Course>}></Route>
+        <Route path='/course/:courseId' element={
+          <CheckOut></CheckOut>
+        }></Route>
         <Route path='*' element={<NotFound></NotFound>}></Route>
       </Routes>
       <Footer></Footer>
