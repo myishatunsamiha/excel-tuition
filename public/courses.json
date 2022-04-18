@@ -1,0 +1,30 @@
+[
+    {
+        "id": "1",
+        "name": "C++ Programming Language",
+        "price": 1500,
+        "description": "In this course, You will learn about variables, arrays, functions, structure, pointer, union, file, objects.",
+        "img": "https://i.ibb.co/vs4HMZk/c.png"
+    },
+    {
+        "id": "2",
+        "name": "JavaScript",
+        "price": 1800,
+        "description": "In this course, You will learn about variables, arrays, functions, structure, pointer, union, file, objects.",
+        "img": "https://i.ibb.co/B2pZ3by/javascript.jpg"
+    },
+    {
+        "id": "3",
+        "name": "Python",
+        "price": 2000,
+        "description": "In this course, You will learn about variables, arrays, functions, structure, pointer, union, file, objects.",
+        "img": "https://i.ibb.co/Rb4FH3P/python.png"
+    },
+    {
+        "id": "4",
+        "name": "Maths",
+        "price": 3000,
+        "description": "In this course, You will learn about variables, arrays, functions, structure, pointer, union, file, objects.",
+        "img": "https://i.ibb.co/M8g3bW1/maths.jpg"
+    }
+]
