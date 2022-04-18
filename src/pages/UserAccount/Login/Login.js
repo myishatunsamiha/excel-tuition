@@ -29,6 +29,7 @@ const Login = () => {
     let from = location.state?.from?.pathname || '/';
 
     if (user) {     // if logged in successfully redirect the user to home page
+        console.log(from);
         navigate(from, { replace: true });
         console.log(user);
     }
