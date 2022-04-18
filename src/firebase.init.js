@@ -7,12 +7,12 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyC4yjlct4zkPDx6Gc6hmpv4jCTdFaHrtAM",
-    authDomain: "excel-tuition.firebaseapp.com",
-    projectId: "excel-tuition",
-    storageBucket: "excel-tuition.appspot.com",
-    messagingSenderId: "11022810511",
-    appId: "1:11022810511:web:09054effa1b404e9f99ffa"
+    apiKey: process.env.REACT_APP_apiKey,
+    authDomain: process.env.REACT_APP_authDomain,
+    projectId: process.env.REACT_APP_projectId,
+    storageBucket: process.env.REACT_APP_storageBucket,
+    messagingSenderId: process.env.REACT_APP_messagingSenderId,
+    appId: process.env.REACT_APP_appId,
 };
 
 // Initialize Firebase
