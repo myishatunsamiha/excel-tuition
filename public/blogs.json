@@ -1,0 +1,17 @@
+[
+    {
+        "id": "1",
+        "ques": "Difference between authorization and authentication?",
+        "ans": "1. Authentication is the process of identifying the user through their unique identity(email/user-id) and password. On the other hand, Authorization is the process for checking the resource accessing privilege of an authenticated user. 2. Authentication of a user is done before determining his/her authorization of the resources(e.g. payment page, checkout page of a website)."
+    },
+    {
+        "id": "2",
+        "ques": "Why are you using firebase? What other options do you have to implement authentication?",
+        "ans": "We are using firebase for authentication and hosting purposes. Firebase is allowing the developers to identify the users using email/password, phone number and other identity providers like github, google, facebook, etc. It provides easier, more secure and trustworthy authentication system than our own created manual login and register system. <br/> Other than firebase, we have Parse, Back4app, Heroku, Kuzzle, Deployd, Kinvey, Backendless, Pubnub, Kumulous, etc."
+    },
+    {
+        "id": "3",
+        "ques": "What other services does firebase provide other than authentication?",
+        "ans": "Below are few other services of firebase: <br/> 1. Realtime database. 2.Remote configuration. 3. Cloud messaging. 4. Cloud functions. 5. Hosting. 6. Cloud Storage. 7. Firebase ml."
+    }
+]
