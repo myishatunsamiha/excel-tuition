@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+.page-title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 80px;
+}
+
+.about-tutor-btn:hover {
+    box-shadow: 5px 5px 10px gray;
+    font-weight: bold;
+    background-color: rgb(65, 60, 60);
+}
