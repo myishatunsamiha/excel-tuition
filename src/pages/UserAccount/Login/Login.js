@@ -1,24 +1,35 @@
 import React, { useRef } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import SocialLogin from '../SocialLogin/SocialLogin';
 import './Login.css';
 import { useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import auth from '../../../firebase.init';
+import { useSendPasswordResetEmail } from 'react-firebase-hooks/auth';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 
 
 const Login = () => {
     const emailRef = useRef('');
     const passwordRef = useRef('');
-    const [signInWithEmailAndPassword, user, loading, error] = useSignInWithEmailAndPassword(auth);
+    const [signInWithEmailAndPassword, user, loading, loginError] = useSignInWithEmailAndPassword(auth);
     let errorElement;
     const navigate = useNavigate();
+    const [sendPasswordResetEmail, sending, resetError] = useSendPasswordResetEmail(
+        auth
+    );
 
-    if (error) {
-        errorElement = <p className='text-danger'>Error: {error.message}</p>
+
+    if (loginError || resetError) {
+        errorElement = <p className='text-danger'>Error: {loginError?.message} {resetError?.message} </p>
     }
 
+    const location = useLocation();
+    let from = location.state?.from?.pathname || '/';
+
     if (user) {     // if logged in successfully redirect the user to home page
-        navigate('/');
+        navigate(from, { replace: true });
         console.log(user);
     }
 
@@ -28,6 +39,16 @@ const Login = () => {
         const password = passwordRef.current.value;
 
         signInWithEmailAndPassword(email, password);
+    }
+
+    const resetPassword = async () => {
+        const email = emailRef.current.value;
+        if (email) {
+            await sendPasswordResetEmail(email);
+            toast('Mail is sent');
+        } else {
+            toast('Please enter your email');
+        }
     }
 
     return (
@@ -41,8 +62,9 @@ const Login = () => {
             {errorElement}
 
             <p>Don't have an account? <Link to='/register' className='text-primary text-decoration-none'>Please Register</Link></p>
-            <p>Forget Password? <button className='btn btn-link text-primary text-decoration-none'>Reset Password</button></p>
+            <p>Forget Password? <button className='btn btn-link text-primary text-decoration-none' onClick={resetPassword}>Reset Password</button></p>
             <SocialLogin></SocialLogin>
+            <ToastContainer />
         </div>
     );
 };

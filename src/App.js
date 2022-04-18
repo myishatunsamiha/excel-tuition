@@ -8,7 +8,8 @@ import Login from './pages/UserAccount/Login/Login';
 import Register from './pages/UserAccount/Register/Register';
 import NotFound from './pages/NotFound/NotFound';
 import Footer from './pages/Shared/Footer/Footer';
-import CheckOut from './pages/Home/CheckOut/CheckOut';
+import CheckOut from './pages/CheckOut/CheckOut';
+import RequireAuth from './pages/RequireAuth/RequireAuth';
 
 
 
@@ -23,8 +24,10 @@ function App() {
         <Route path='/blogs' element={<Blogs></Blogs>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>
         <Route path='/register' element={<Register></Register>}></Route>
-        <Route path='/course/:courseId' element={
-          <CheckOut></CheckOut>
+        <Route path='/checkout/:courseId' element={
+          <RequireAuth>
+            <CheckOut></CheckOut>
+          </RequireAuth>
         }></Route>
         <Route path='*' element={<NotFound></NotFound>}></Route>
       </Routes>

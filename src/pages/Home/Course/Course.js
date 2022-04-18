@@ -21,7 +21,7 @@ const Course = ({ course }) => {
                     </Card.Text>
                 </Card.Body>
                 <Card.Footer>
-                    <button className='btn btn-block btn-dark text-light' onClick={() => navigate(`/course/${course.id}`)}>Check Out</button>
+                    <button className='btn btn-block btn-dark text-light' onClick={() => navigate(`/checkout/${course.id}`)}>Check Out</button>
                 </Card.Footer>
             </Card>
         </div>
